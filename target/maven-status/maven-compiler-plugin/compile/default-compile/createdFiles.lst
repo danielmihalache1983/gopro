@@ -1,0 +1,8 @@
+pages\MiniCartPage.class
+pages\Page.class
+utils\Sleeper.class
+pages\CamerasPage.class
+pages\CartPage.class
+pages\HomePage.class
+pages\MenuBar.class
+webDriver\WebDriverFactory.class

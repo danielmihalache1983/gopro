@@ -1,0 +1,29 @@
+# Created at 2019-12-14T23:03:38.383
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
+# Created at 2019-12-14T23:03:39.794
+Unexpected IOException: 8,1,GoProTest,testSecondCameraCanBeRemovedFromCart(GoProTest),null,Expected condition failed: waiting for visibility of element located by By.xpath: //td[@class='cart-nested-table'] (tried for 5 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for visibility of element located by By.xpath: //td[@class='cart-nested-table'] (tried for 5 second(s) with 500 milliseconds interval),GoProTest.testSecondCameraCanBeRemovedFromCart:47 \00BB Timeout Expected condition...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //td[@class='cart-nested-table'] (tried for 5 second(s) with 500 milliseconds interval)\000A\0009at GoProTest.testSecondCameraCanBeRemovedFromCart(GoProTest.java:47)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//td[@class='cart-nested-table']"}\000A  (Session info: chrome=79.0.3945.79)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63566}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 8ce467bb84a222e4f3ca03cb6b4d7b0c\000A*** Element info: {Using=xpath\002C value=//td[@class='cart-nested-table']}\000A\0009at GoProTest.testSecondCameraCanBeRemovedFromCart(GoProTest.java:47)\000A
+
+
+# Created at 2019-12-14T23:03:39.795
+Unexpected IOException: 5,1,GoProTest,testThatRemovingSecondCameraWillFail(GoProTest),GoProTest,null,null
+
+
+# Created at 2019-12-14T23:03:39.796
+Unexpected IOException with stream: Removing product from cart: null
+
+
+# Created at 2019-12-14T23:03:44.926
+Unexpected IOException: 6,1,GoProTest,testThatRemovingSecondCameraWillFail(GoProTest),null,null,null
+
+
+# Created at 2019-12-14T23:03:45.924
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+

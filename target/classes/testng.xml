@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="GoProTest" verbose="1" >
+    <parameter name="continent"  value="Europe"/>
+    <parameter name="country"  value="Romania"/>
+    <parameter name="language"  value="English"/>
+    <parameter name="baseUrl"  value="https://gopro.com"/>
+    <test name="HomeTest"   >
+        <classes>
+            <class name="GoProTest"></class>
+        </classes>
+    </test>
+</suite>

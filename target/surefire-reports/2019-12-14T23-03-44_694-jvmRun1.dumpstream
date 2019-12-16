@@ -1,0 +1,909 @@
+# Created at 2019-12-14T23:04:36.480
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
+# Created at 2019-12-14T23:04:39.754
+Unexpected IOException: 8,1,GoProTest,testFirstCameraCanBeRemovedFromCart(GoProTest),null,chrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//a[@class='mini-cart-viewcart-cta btn-round']},null,chrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//a[@class='mini-cart-viewcart-cta btn-round']},GoProTest.testFirstCameraCanBeRemovedFromCart:37 \00BB WebDriver chrome not reacha...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//a[@class='mini-cart-viewcart-cta btn-round']}\000A\0009at GoProTest.testFirstCameraCanBeRemovedFromCart(GoProTest.java:37)\000A
+
+
+# Created at 2019-12-14T23:04:39.755
+Unexpected IOException: 5,1,GoProTest,testSecondCameraCanBeRemovedFromCart(GoProTest),GoProTest,null,null
+
+
+# Created at 2019-12-14T23:04:39.758
+Unexpected IOException with stream: Removing product from cart: null
+
+
+# Created at 2019-12-14T23:04:41.763
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:41.763
+Unexpected IOException with stream: 1
+
+# Created at 2019-12-14T23:04:41.764
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:41.764
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:41.765
+Unexpected IOException with stream: 6
+
+# Created at 2019-12-14T23:04:41.765
+Unexpected IOException with stream: 3
+
+# Created at 2019-12-14T23:04:41.766
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:41.766
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:41.767
+Unexpected IOException with stream: 4
+
+# Created at 2019-12-14T23:04:41.767
+Unexpected IOException with stream: 8
+
+# Created at 2019-12-14T23:04:41.768
+Unexpected IOException with stream: 1
+
+# Created at 2019-12-14T23:04:41.768
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:41.768
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:41.769
+Unexpected IOException with stream: 6
+
+# Created at 2019-12-14T23:04:41.769
+Unexpected IOException with stream: 2
+
+# Created at 2019-12-14T23:04:41.770
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:41.770
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:41.770
+Unexpected IOException with stream: W
+
+# Created at 2019-12-14T23:04:41.771
+Unexpected IOException with stream: A
+
+# Created at 2019-12-14T23:04:41.771
+Unexpected IOException with stream: R
+
+# Created at 2019-12-14T23:04:41.771
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:41.772
+Unexpected IOException with stream: I
+
+# Created at 2019-12-14T23:04:41.772
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:41.773
+Unexpected IOException with stream: G
+
+# Created at 2019-12-14T23:04:41.773
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:41.774
+Unexpected IOException with stream: :
+
+# Created at 2019-12-14T23:04:41.774
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:41.774
+Unexpected IOException with stream: T
+
+# Created at 2019-12-14T23:04:41.775
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:41.775
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:41.775
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:41.776
+Unexpected IOException with stream: d
+
+# Created at 2019-12-14T23:04:41.776
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:41.777
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:41.777
+Unexpected IOException with stream: u
+
+# Created at 2019-12-14T23:04:41.777
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:41.778
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:41.778
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:41.778
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:41.779
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:41.779
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:41.779
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:41.780
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:41.780
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:41.780
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:41.781
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:41.781
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:41.782
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:41.782
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:41.782
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:41.783
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:41.783
+Unexpected IOException with stream: C
+
+# Created at 2019-12-14T23:04:41.783
+Unexpected IOException with stream: h
+
+# Created at 2019-12-14T23:04:41.784
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:41.784
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:41.790
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:41.791
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:41.791
+Unexpected IOException with stream: ,
+
+# Created at 2019-12-14T23:04:41.791
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:41.792
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:41.792
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:41.792
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:41.793
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:41.793
+Unexpected IOException with stream: y
+
+# Created at 2019-12-14T23:04:41.793
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:41.794
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:41.794
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:41.794
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:41.794
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:41.795
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:41.795
+Unexpected IOException with stream: 
+
+# Created at 2019-12-14T23:04:41.795
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-14T23:04:45.762
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:45.762
+Unexpected IOException with stream: 1
+
+# Created at 2019-12-14T23:04:45.763
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:45.763
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:45.764
+Unexpected IOException with stream: 6
+
+# Created at 2019-12-14T23:04:45.764
+Unexpected IOException with stream: 3
+
+# Created at 2019-12-14T23:04:45.765
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:45.765
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:45.765
+Unexpected IOException with stream: 4
+
+# Created at 2019-12-14T23:04:45.766
+Unexpected IOException with stream: 8
+
+# Created at 2019-12-14T23:04:45.766
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:45.767
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:45.767
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:45.767
+Unexpected IOException with stream: 6
+
+# Created at 2019-12-14T23:04:45.768
+Unexpected IOException with stream: 2
+
+# Created at 2019-12-14T23:04:45.768
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:45.768
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:45.769
+Unexpected IOException with stream: W
+
+# Created at 2019-12-14T23:04:45.769
+Unexpected IOException with stream: A
+
+# Created at 2019-12-14T23:04:45.769
+Unexpected IOException with stream: R
+
+# Created at 2019-12-14T23:04:45.770
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:45.770
+Unexpected IOException with stream: I
+
+# Created at 2019-12-14T23:04:45.770
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:45.771
+Unexpected IOException with stream: G
+
+# Created at 2019-12-14T23:04:45.771
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:45.771
+Unexpected IOException with stream: :
+
+# Created at 2019-12-14T23:04:45.772
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:45.772
+Unexpected IOException with stream: T
+
+# Created at 2019-12-14T23:04:45.772
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:45.772
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:45.773
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:45.773
+Unexpected IOException with stream: d
+
+# Created at 2019-12-14T23:04:45.774
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:45.774
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:45.774
+Unexpected IOException with stream: u
+
+# Created at 2019-12-14T23:04:45.774
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:45.775
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:45.775
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:45.775
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:45.776
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:45.776
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:45.776
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:45.777
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:45.777
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:45.777
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:45.778
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:45.778
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:45.778
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:45.779
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:45.779
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:45.779
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:45.780
+Unexpected IOException with stream: C
+
+# Created at 2019-12-14T23:04:45.780
+Unexpected IOException with stream: h
+
+# Created at 2019-12-14T23:04:45.781
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:45.781
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:45.781
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:45.782
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:45.782
+Unexpected IOException with stream: ,
+
+# Created at 2019-12-14T23:04:45.782
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:45.782
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:45.783
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:45.783
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:45.783
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:45.784
+Unexpected IOException with stream: y
+
+# Created at 2019-12-14T23:04:45.784
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:45.785
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:45.785
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:45.785
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:45.786
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:45.786
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:45.786
+Unexpected IOException with stream: 
+
+# Created at 2019-12-14T23:04:45.787
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-14T23:04:53.783
+Unexpected IOException: 8,1,GoProTest,testSecondCameraCanBeRemovedFromCart(GoProTest),null,chrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//td[@class='cart-nested-table']},null,chrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//td[@class='cart-nested-table']},GoProTest.testSecondCameraCanBeRemovedFromCart:47 \00BB WebDriver chrome not reach...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//td[@class='cart-nested-table']}\000A\0009at GoProTest.testSecondCameraCanBeRemovedFromCart(GoProTest.java:47)\000A
+
+
+# Created at 2019-12-14T23:04:53.784
+Unexpected IOException: 5,1,GoProTest,testThatRemovingSecondCameraWillFail(GoProTest),GoProTest,null,null
+
+
+# Created at 2019-12-14T23:04:53.784
+Unexpected IOException with stream: Removing product from cart: null
+
+
+# Created at 2019-12-14T23:04:55.788
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:55.789
+Unexpected IOException with stream: 1
+
+# Created at 2019-12-14T23:04:55.789
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:55.789
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:55.790
+Unexpected IOException with stream: 6
+
+# Created at 2019-12-14T23:04:55.790
+Unexpected IOException with stream: 3
+
+# Created at 2019-12-14T23:04:55.790
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:55.790
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:55.791
+Unexpected IOException with stream: 4
+
+# Created at 2019-12-14T23:04:55.791
+Unexpected IOException with stream: 9
+
+# Created at 2019-12-14T23:04:55.791
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:55.792
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:55.792
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:55.792
+Unexpected IOException with stream: 8
+
+# Created at 2019-12-14T23:04:55.793
+Unexpected IOException with stream: 8
+
+# Created at 2019-12-14T23:04:55.793
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:55.793
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:55.794
+Unexpected IOException with stream: W
+
+# Created at 2019-12-14T23:04:55.794
+Unexpected IOException with stream: A
+
+# Created at 2019-12-14T23:04:55.794
+Unexpected IOException with stream: R
+
+# Created at 2019-12-14T23:04:55.795
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:55.795
+Unexpected IOException with stream: I
+
+# Created at 2019-12-14T23:04:55.795
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:55.795
+Unexpected IOException with stream: G
+
+# Created at 2019-12-14T23:04:55.796
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:55.796
+Unexpected IOException with stream: :
+
+# Created at 2019-12-14T23:04:55.796
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:55.797
+Unexpected IOException with stream: T
+
+# Created at 2019-12-14T23:04:55.797
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:55.797
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:55.798
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:55.798
+Unexpected IOException with stream: d
+
+# Created at 2019-12-14T23:04:55.799
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:55.799
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:55.799
+Unexpected IOException with stream: u
+
+# Created at 2019-12-14T23:04:55.799
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:55.800
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:55.800
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:55.800
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:55.801
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:55.801
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:55.802
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:55.802
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:55.802
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:55.803
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:55.803
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:55.803
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:55.804
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:55.804
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:55.804
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:55.805
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:55.805
+Unexpected IOException with stream: C
+
+# Created at 2019-12-14T23:04:55.805
+Unexpected IOException with stream: h
+
+# Created at 2019-12-14T23:04:55.806
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:55.806
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:55.806
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:55.806
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:55.807
+Unexpected IOException with stream: ,
+
+# Created at 2019-12-14T23:04:55.807
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:55.807
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:55.808
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:55.808
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:55.808
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:55.809
+Unexpected IOException with stream: y
+
+# Created at 2019-12-14T23:04:55.809
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:55.809
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:55.809
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:55.810
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:55.810
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:55.810
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:55.810
+Unexpected IOException with stream: 
+
+# Created at 2019-12-14T23:04:55.811
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-14T23:04:59.789
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:59.789
+Unexpected IOException with stream: 1
+
+# Created at 2019-12-14T23:04:59.789
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:59.790
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:59.790
+Unexpected IOException with stream: 6
+
+# Created at 2019-12-14T23:04:59.790
+Unexpected IOException with stream: 3
+
+# Created at 2019-12-14T23:04:59.791
+Unexpected IOException with stream: 5
+
+# Created at 2019-12-14T23:04:59.791
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:59.791
+Unexpected IOException with stream: 4
+
+# Created at 2019-12-14T23:04:59.792
+Unexpected IOException with stream: 9
+
+# Created at 2019-12-14T23:04:59.792
+Unexpected IOException with stream: 9
+
+# Created at 2019-12-14T23:04:59.792
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:59.793
+Unexpected IOException with stream: 7
+
+# Created at 2019-12-14T23:04:59.793
+Unexpected IOException with stream: 8
+
+# Created at 2019-12-14T23:04:59.793
+Unexpected IOException with stream: 8
+
+# Created at 2019-12-14T23:04:59.794
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:59.794
+Unexpected IOException with stream: [
+
+# Created at 2019-12-14T23:04:59.794
+Unexpected IOException with stream: W
+
+# Created at 2019-12-14T23:04:59.794
+Unexpected IOException with stream: A
+
+# Created at 2019-12-14T23:04:59.795
+Unexpected IOException with stream: R
+
+# Created at 2019-12-14T23:04:59.795
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:59.796
+Unexpected IOException with stream: I
+
+# Created at 2019-12-14T23:04:59.796
+Unexpected IOException with stream: N
+
+# Created at 2019-12-14T23:04:59.797
+Unexpected IOException with stream: G
+
+# Created at 2019-12-14T23:04:59.797
+Unexpected IOException with stream: ]
+
+# Created at 2019-12-14T23:04:59.797
+Unexpected IOException with stream: :
+
+# Created at 2019-12-14T23:04:59.798
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:59.798
+Unexpected IOException with stream: T
+
+# Created at 2019-12-14T23:04:59.798
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:59.799
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:59.799
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:59.799
+Unexpected IOException with stream: d
+
+# Created at 2019-12-14T23:04:59.800
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:59.800
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:59.800
+Unexpected IOException with stream: u
+
+# Created at 2019-12-14T23:04:59.800
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:59.801
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:59.801
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:59.801
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:59.802
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:59.802
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:59.802
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:59.803
+Unexpected IOException with stream: c
+
+# Created at 2019-12-14T23:04:59.803
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:59.803
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:59.803
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:59.804
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:59.804
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:59.804
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:59.804
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:59.805
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:59.805
+Unexpected IOException with stream: C
+
+# Created at 2019-12-14T23:04:59.805
+Unexpected IOException with stream: h
+
+# Created at 2019-12-14T23:04:59.805
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:59.806
+Unexpected IOException with stream: o
+
+# Created at 2019-12-14T23:04:59.806
+Unexpected IOException with stream: m
+
+# Created at 2019-12-14T23:04:59.806
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:59.807
+Unexpected IOException with stream: ,
+
+# Created at 2019-12-14T23:04:59.807
+Unexpected IOException with stream:  
+
+# Created at 2019-12-14T23:04:59.807
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:59.807
+Unexpected IOException with stream: e
+
+# Created at 2019-12-14T23:04:59.808
+Unexpected IOException with stream: t
+
+# Created at 2019-12-14T23:04:59.808
+Unexpected IOException with stream: r
+
+# Created at 2019-12-14T23:04:59.808
+Unexpected IOException with stream: y
+
+# Created at 2019-12-14T23:04:59.808
+Unexpected IOException with stream: i
+
+# Created at 2019-12-14T23:04:59.809
+Unexpected IOException with stream: n
+
+# Created at 2019-12-14T23:04:59.809
+Unexpected IOException with stream: g
+
+# Created at 2019-12-14T23:04:59.809
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:59.809
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:59.810
+Unexpected IOException with stream: .
+
+# Created at 2019-12-14T23:04:59.810
+Unexpected IOException with stream: 
+
+# Created at 2019-12-14T23:04:59.810
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-14T23:05:07.811
+Unexpected IOException: 8,1,GoProTest,testThatRemovingSecondCameraWillFail(GoProTest),null,\000AExpected exception of type class org.openqa.selenium.TimeoutException but got org.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//td[@class='cart-nested-table']},null,\000AExpected exception of type class org.openqa.selenium.TimeoutException but got org.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//td[@class='cart-nested-table']},GoProTest.testThatRemovingSecondCameraWillFail \00BB Test \000AExpected exception of t...,org.testng.TestException: \000A\000AExpected exception of type class org.openqa.selenium.TimeoutException but got org.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=79.0.3945.79)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-3DIO0EK'\002C ip: '192.168.0.127'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005Cdanie\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:63599}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ca89f88185c3a1bf2e824192db6ef76c\000A*** Element info: {Using=xpath\002C value=//td[@class='cart-nested-table']}\000A\0009at GoProTest.testThatRemovingSecondCameraWillFail(GoProTest.java:57)\000A
+
+
+# Created at 2019-12-14T23:05:08.508
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
